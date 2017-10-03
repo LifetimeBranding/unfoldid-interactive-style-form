@@ -1,0 +1,41 @@
+
+.slick-prev,
+.slick-next {
+  font-family: inherit !important;
+  color: #5B5C5F;
+}
+.slick-prev:before {
+  color: #273744;
+}
+
+.slick-next:before {
+  color: #273744;
+}
+
+#carousel-favorite-brands-and-stores {
+  height: 100px;
+}
+
+#carousel-best-match-photo {
+  height: 350px;
+}
+
+#carousel-formal-look-photo {
+  height: 350px;
+}
+
+#carousel-upper-body-fit-photo {
+  height: 350px;
+}
+
+#carousel-lower-body-fit-photo {
+  height: 350px;
+}
+
+#carousel-work-attire-photo {
+  height: 350px;
+}
+
+#carousel-going-out-photo {
+  height: 350px;
+}

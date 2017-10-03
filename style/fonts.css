@@ -1,0 +1,79 @@
+/*
+*
+* 
+*   FONTS
+*
+*
+*/
+
+@font-face {
+	font-family: 'Halcom-Book';
+	src: url('fonts/halcom-book.eot');
+	src: url('fonts/halcom-book.eot?#iefix') format('embedded-opentype'),
+             url('fonts/halcom-book.woff2') format('woff2'),
+	     url('fonts/halcom-book.woff') format('woff'),
+	     url('fonts/halcom-book.ttf') format('truetype'),
+	     url('fonts/halcom-book.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Halcom';
+	src: url('fonts/halcom.eot');
+	src: url('fonts/halcom.eot?#iefix') format('embedded-opentype'),
+             url('fonts/halcom.woff2') format('woff2'),
+	     url('fonts/halcom.woff') format('woff'),
+	     url('fonts/halcom.ttf') format('truetype'),
+	     url('fonts/halcom.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Halcom-Medium';
+	src: url('fonts/halcom-medium.eot');
+	src: url('fonts/halcom-medium.eot?#iefix') format('embedded-opentype'),
+             url('fonts/halcom-medium.woff2') format('woff2'),
+	     url('fonts/halcom-medium.woff') format('woff'),
+	     url('fonts/halcom-medium.ttf') format('truetype'),
+	     url('fonts/halcom-medium.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Halcom-Light';
+	src: url('fonts/halcom-light.eot');
+	src: url('fonts/halcom-light.eot?#iefix') format('embedded-opentype'),
+             url('fonts/halcom-light.woff2') format('woff2'),
+	     url('fonts/halcom-light.woff') format('woff'),
+	     url('fonts/halcom-light.ttf') format('truetype'),
+	     url('fonts/halcom-light.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'Escrow-Banner';
+  src: url('fonts/EscrowBanner-Roman.eot?#iefix') format('embedded-opentype'),  url('fonts/EscrowBanner-Roman.otf')  format('opentype'),
+	     url('fonts/EscrowBanner-Roman.woff') format('woff'), url('fonts/EscrowBanner-Roman.ttf')  format('truetype'), url('fonts/EscrowBanner-Roman.svg#EscrowBanner-Roman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font__escrow-banner   {
+  font-family: 'Escrow-Banner' !important;
+}
+
+.font__halcom {
+  font-family: 'Halcom-Book' !important;
+}
+
+.font__halcom--light {
+  font-family: 'Halcom-Light' !important;
+}
+
+.font__halcom--medium {
+  font-family: 'Halcom-Medium' !important;
+}

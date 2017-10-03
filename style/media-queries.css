@@ -1,0 +1,148 @@
+/*
+
+MEDIA QUIERIES
+
+*/
+
+@media screen and (orientation: portrait) {
+  .landscape-only-notice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: block !important;
+    z-index: 999;
+  }
+}
+
+/* iPhone 5S */
+@media screen and (min-width: 567px) and (max-width: 666px) {
+  .splash-text > h3 {
+    display: none;
+  }
+
+  .splash-text > p {
+    font-size: 0.8em;
+  }
+  
+  .form-container {
+    font-size: 1em;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    min-height: 300px;
+    width: 533px;
+    overflow-x: hidden;
+  }
+
+  .pose-section > img {
+    height: 225px;
+    margin-left: 20px;
+  }
+
+  .nav-link {
+    margin: auto;
+    font-size: 1em;
+  }
+}
+
+/* iPhone 6/6S/7 */
+
+@media screen and (min-width: 667px) and (max-width: 735px) {
+  .splash-text > h3 {
+    display: none;
+  }
+
+  .splash-text > p {
+    font-size: 0.95em;
+  }
+
+  .pose-section > img {
+    height: 258px;
+    margin-left: 20px;
+  }
+  
+  .form-container {
+    font-size: 1em;
+    padding: 20px;
+    margin: 5px 0px 5px 0px;
+    min-height: 347px;
+    width: 625px;
+    overflow-x: hidden;
+}
+
+  .nav-link {
+    margin: auto;
+    font-size: 1.2em;
+  }
+}
+
+/* iPhone 6/6S/7 Plus */
+
+@media screen and (min-width: 736px) and (max-width: 1023px) {
+  .splash-text > h3 {
+    display: none;
+  }
+
+  .splash-text > p {
+    font-size: 1em;
+  }
+
+  .pose-section > img {
+    height: 283px;
+    margin-left: 20px;
+  }
+  
+  .form-container {
+    font-size: 1em;
+    padding: 5px;
+    margin: 5px 0px 5px 0px;
+    min-height: 383px;
+    width: 689px;
+    overflow-x: hidden;
+}
+
+.nav-link {
+  margin: auto;
+  font-size: 1.3em;
+  }
+}
+
+/* iPads and Desktops */
+
+@media screen and (min-width: 1024px) {
+  .splash-text > h3 {
+    font-size: 3em;
+  }
+
+  .pose-section > img {
+    height: 450px;
+    margin-left:-50px;
+    margin-top: -50px;
+  }
+  
+  .nav-link {
+    font-size: 2em;
+    }
+
+  .form-container {
+    position: relative;
+    top: 50vh;
+    margin-top: -325px;
+    width: 958px;
+    height: 650px;
+    max-width: 1155px;
+    padding: 75px 50px 75px 50px;
+    overflow-x: hidden;
+  }
+
+  .tab-pane:first-child {
+    margin-top: 50px;
+  }
+
+  .tab-pane > section {
+    margin-top: 50px;
+  }
+}
