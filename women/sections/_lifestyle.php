@@ -47,93 +47,100 @@
         <fieldset class="mt-3">
           <legend>I wear Business Casual or Work Wear...</legend>
           <select name="i-wear-work-business-wear" class="custom-select w-100">
-                                        <option>Most of the time</option>
-                                        <option>Once or twice a week</option>
-                                        <option>Once or twice a month</option>
-                                        <option>Rarely</option>
-                                      </select>
+          <option selected="selected" disabled="disabled"> </option>
+          <option>Most of the time</option>
+          <option>Once or twice a week</option>
+          <option>Once or twice a month</option>
+          <option>Rarely</option>
+          </select>
         </fieldset>
         <!-- Fieldset: Most Days -->
         <fieldset>
           <legend>Most days I wear...</legend>
           <select name="most-days-i-wear" class="custom-select w-100">
-                            <option>Leggings and a top</option>
-                            <option>Jeans and a top</option>
-                            <option>Jeans and a jacket or blazer</option>
-                            <option>Pants and a top or sweater</option>
-                            <option>Pants and a jacket or blazer</option>
-                            <option>Skirt and a sweater</option>
-                            <option>Casual dress</option>
-                            <option>Suit separates</option>
-                            <option>Pant suit</option>
-                            <option>Work Dress and Blazer</option>
-                            <option>Formal Suit</option>
-                          </select>
+          <option selected="selected" disabled="disabled"> </option>
+          <option>Leggings and a top</option>
+          <option>Jeans and a top</option>
+          <option>Jeans and a jacket or blazer</option>
+          <option>Pants and a top or sweater</option>
+          <option>Pants and a jacket or blazer</option>
+          <option>Skirt and a sweater</option>
+          <option>Casual dress</option>
+          <option>Suit separates</option>
+          <option>Pant suit</option>
+          <option>Work Dress and Blazer</option>
+          <option>Formal Suit</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Casual wear -->
         <fieldset class="mt-3">
           <legend>My casual wear is mostly...</legend>
           <select name="my-casual-wear-is-mostly" class="custom-select w-100">
-                              <option>Jeans and a top</option>
-                              <option>Jeans and a jacket or blazer</option>
-                              <option>Pants and a top or sweater</option>
-                              <option>Pants and a jacket or blazer</option>
-                              <option>Skirt and a sweater</option>
-                              <option>Casual dress</option>
-                              <option>Suit separates</option>
-                              <option>Pant Suit</option>
-                              <option>Work dress and blazer</option>
-                              <option>Formal suit</option>
-                            </select>
+          <option selected="selected" disabled="disabled"> </option>
+          <option>Jeans and a top</option>
+          <option>Jeans and a jacket or blazer</option>
+          <option>Pants and a top or sweater</option>
+          <option>Pants and a jacket or blazer</option>
+          <option>Skirt and a sweater</option>
+          <option>Casual dress</option>
+          <option>Suit separates</option>
+          <option>Pant Suit</option>
+          <option>Work dress and blazer</option>
+          <option>Formal suit</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Going out at night -->
         <fieldset class="mt-3">
           <legend>When I go out at night I mostly wear...</legend>
           <select name="going-out-at-night-i-mostly-wear" class="custom-select w-100">
-                                <option>Leggings, a fun top, and flats</option>
-                                <option>Jeans, a fun top, and flats</option>
-                                <option>Jeans, a jacket or a top, and heels</option>
-                                <option>Pants and a top or jacket</option>
-                                <option>A skirt, a top, and heels</option>
-                                <option>A simple dress and flats</option>
-                                <option>A simple dress and heels</option>
-                                <option>A striking dress and heels</option>
-                              </select>
+          <option selected="selected" disabled="disabled"> </option>
+          <option>Leggings, a fun top, and flats</option>
+          <option>Jeans, a fun top, and flats</option>
+          <option>Jeans, a jacket or a top, and heels</option>
+          <option>Pants and a top or jacket</option>
+          <option>A skirt, a top, and heels</option>
+          <option>A simple dress and flats</option>
+          <option>A simple dress and heels</option>
+          <option>A striking dress and heels</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Frequency of Casual Day wear -->
         <fieldset class="mt-3">
           <legend>I dress casually...</legend>
           <select name="i-dress-casually" class="custom-select w-100">
-                              <option>Most of the time</option>
-                              <option>Once or twice a week</option>
-                              <option>Once or twice a month</option>
-                              <option>Rarely</option>
-                            </select>
+          <option selected="selected" disabled="disabled"> </option>
+          <option>Most of the time</option>
+          <option>Once or twice a week</option>
+          <option>Once or twice a month</option>
+          <option>Rarely</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Frequency of Date night/night out -->
         <fieldset class="mt-3">
           <legend>I wear Date Night or Girl's Night Out attire</legend>
           <select name="i-wear-date-night-night-out-wear" class="custom-select w-100">
-                              <option>Most of the time</option>
-                              <option>Once or twice a week</option>
-                              <option>Once or twice a month</option>
-                              <option>Rarely</option>
-                            </select>
+          <option selected="selected" disabled="disabled"> </option>
+          <option>Most of the time</option>
+          <option>Once or twice a week</option>
+          <option>Once or twice a month</option>
+          <option>Rarely</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Frequency of Formal Wear, Evening, or Cocktail attire -->
         <fieldset class="mt-3">
           <legend>I wear Formal Wear, Evening or Cocktail Attire</legend>
           <select name="i-wear-formal-wear" class="custom-select w-100">
-                              <option>Once or twice a month</option>
-                              <option>Once or twice every 6 months</option>
-                              <option>Once or twice a year</option>
-                              <option>Rarely</option>
-                            </select>
+          <option selected="selected" disabled="disabled"> </option>
+          <option>Once or twice a month</option>
+          <option>Once or twice every 6 months</option>
+          <option>Once or twice a year</option>
+          <option>Rarely</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Frequency of Formal Wear, Evening, or Cocktail attire -->
@@ -142,36 +149,36 @@
           <div class="form-row">
             <div class="col-4">
               <select name="time-to-spend-on-casual" class="custom-select w-100">
-                                <option disabled selected>Casual</option>
-                                <option disabled>------</option>
-                                <option>Lots</option>
-                                <option>Frequent</option>
-                                <option>Occasional</option>
-                                <option>Rarely</option>
-                                <option>None</option>
-                              </select>
+              <option selected="selected" disabled="disabled">Casual</option>
+              <option disabled>------</option>
+              <option>Lots</option>
+              <option>Frequent</option>
+              <option>Occasional</option>
+              <option>Rarely</option>
+              <option>None</option>
+              </select>
             </div>
             <div class="col-4">
               <select name="time-to-spend-on-business-work" class="custom-select w-100">
-                                  <option disabled selected>Business/Work</option>
-                                  <option disabled>------</option>
-                                  <option>Lots</option>
-                                  <option>Frequent</option>
-                                  <option>Occasional</option>
-                                  <option>Rarely</option>
-                                  <option>None</option>
-                                </select>
+              <option selected="selected" disabled="disabled">Business/Work</option>
+              <option disabled>------</option>
+              <option>Lots</option>
+              <option>Frequent</option>
+              <option>Occasional</option>
+              <option>Rarely</option>
+              <option>None</option>
+              </select>
             </div>
             <div class="col-4">
               <select name="time-to-spend-on-date-night-girls-night" class="custom-select w-100">
-                                      <option disabled selected>Date Night/Girl's Night Out</option>
-                                      <option disabled>------</option>
-                                      <option>Lots</option>
-                                      <option>Frequent</option>
-                                      <option>Occasional</option>
-                                      <option>Rarely</option>
-                                      <option>None</option>
-                                    </select>
+              <option selected="selected" disabled="disabled">Date Night/Girl's Night Out</option>
+              <option disabled>------</option>
+              <option>Lots</option>
+              <option>Frequent</option>
+              <option>Occasional</option>
+              <option>Rarely</option>
+              <option>None</option>
+              </select>
             </div>
           </div>
 
@@ -180,15 +187,15 @@
         <!-- Fieldset: Category of Items Not to Shop For -->
         <fieldset class="mt-3">
           <legend>Are there any category of clothing items you do not want us to shop for?</legend>
-          <select name="items-not-to-shop-for[]" multiple class="form-control w-100">
-                            <option>Tops</option>
-                            <option>Jackets</option>
-                            <option>Jeans</option>
-                            <option>Pants</option>
-                            <option>Skirts</option>
-                            <option>Dresses</option>
-                            <option>Shoes</option>
-                          </select>
+          <select name="items-not-to-shop-for[]" multiple class="form-control w-100" size="7">
+          <option>Tops</option>
+          <option>Jackets</option>
+          <option>Jeans</option>
+          <option>Pants</option>
+          <option>Skirts</option>
+          <option>Dresses</option>
+          <option>Shoes</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Colors -->
@@ -202,25 +209,25 @@
         <fieldset class="mt-3">
           <legend>Are there any categories of jewelry or accessory you do not want us to shop for?</legend>
 
-          <select name="jewlery-to-not-shop-for[]" multiple class="form-control w-100">
-                              <option>Earrings</option>
-                              <option>Bracelets</option>
-                              <option>Rings</option>
-                              <option>Necklace</option>
-                            </select>
+          <select name="jewlery-to-not-shop-for[]" multiple class="form-control w-100" size="4">
+          <option>Earrings</option>
+          <option>Bracelets</option>
+          <option>Rings</option>
+          <option>Necklace</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Animal Prints - Like -->
         <fieldset class="mt-3">
           <legend>Are there any prints you love and want us to keep an eye out for?</legend>
-          <select name="prints-to-look-out-for[]" multiple class="form-control w-100">
-                            <option>Animal Print</option>
-                            <option>Flowery</option>
-                            <option>Paisley</option>
-                            <option>Stripes</option>
-                            <option>Polka Dots</option>
-                            <option>Plaid</option>
-                            </select>
+          <select name="prints-to-look-out-for[]" multiple class="form-control w-100" size="6">
+          <option>Animal Print</option>
+          <option>Flowery</option>
+          <option>Paisley</option>
+          <option>Stripes</option>
+          <option>Polka Dots</option>
+          <option>Plaid</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Animal Prints - Don't Like -->
@@ -232,14 +239,14 @@
         <!-- Fieldset: Fabrics - Like -->
         <fieldset class="mt-3">
           <legend>Are there any fabrics or materials you prefer?</legend>
-          <select name="preferred-fabrics[]" multiple class="form-control w-100">
-                                <option>Leather</option>
-                                <option>Pleater</option>
-                                <option>Fur</option>
-                                <option>Faux Fur</option>
-                                <option>Wool</option>
-                                <option>Polyester</option>
-                                </select>
+          <select name="preferred-fabrics[]" multiple class="form-control w-100" size="6">
+          <option>Leather</option>
+          <option>Pleater</option>
+          <option>Fur</option>
+          <option>Faux Fur</option>
+          <option>Wool</option>
+          <option>Polyester</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Fabrics - Don't Like -->
@@ -253,12 +260,12 @@
           <legend>Are you happy to shop consignment</legend>
           <div class="d-inline-block w-100">
             <label>
-                                <input name="ok-with-consignment" value="yes" type="radio"> Yes
-                            </label>
+                <input name="ok-with-consignment" value="yes" type="radio"> Yes
+            </label>
 
             <label>
-                                <input name="ok-with-consignment" value="no" type="radio"> No
-                            </label>
+              <input name="ok-with-consignment" value="no" type="radio"> No
+          </label>
           </div>
         </fieldset>
 
@@ -275,15 +282,15 @@
             <div class="col-12 mx-auto text-center">
               <label>What is the average cost per item you would like us to spend?</label>
               <select name="cost-per-item-to-spend" class="custom-select mx-auto">
-                                <option>---</option>
-                                <option>$50</option>
-                                <option>$70</option>
-                                <option>$100</option>
-                                <option>$150</option>
-                                <option>$200</option>
-                                <option>$500</option>
-                                <option>$750+</option>
-                              </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option>$50</option>
+              <option>$70</option>
+              <option>$100</option>
+              <option>$150</option>
+              <option>$200</option>
+              <option>$500</option>
+              <option>$750+</option>
+              </select>
             </div>
           </div>
           <div class="form-row mt-5">

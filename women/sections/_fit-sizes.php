@@ -30,6 +30,7 @@
         <fieldset>
           <legend>How do you like your upper body clothes to fit?</legend>
           <select name="upper-body-fit" class="custom-select">
+          <option selected="selected" disabled="disabled"> </option>
           <option>Tight &amp; Sleek</option>
           <option>Fitted</option>
           <option>Straight</option>
@@ -41,6 +42,7 @@
         <fieldset class="mt-3">
           <legend>How do you prefer clothing to fit on your lower body?</legend>
           <select name="lower-body-fit" class="custom-select">
+          <option selected="selected" disabled="disabled"> </option>
           <option>Tight &amp; Sleek</option>
           <option>Fitted</option>
           <option>Straight</option>
@@ -52,26 +54,26 @@
         <!-- Multiple Selectbox: Common Issues -->
         <fieldset class="mt-3">
           <legend>Do you have any of these common issues when buying clothing?</legend>
-          <select name="common-issues[]" multiple class="form-control my-2 w-100">
-                            <option>Sleeves are too long</option>
-                            <option>Sleeves are too short</option>
-                            <option>Pants are too long</option>
-                            <option>Pants are too short</option>
-                            <option>Sleeves are too tight</option>
-                            <option>Sleeves are too loose</option>
-                            <option>Waist fits, but too big through the hip</option>
-                            <option>Hips fits but too big through the waist (the waist gap)</option>
-                            <option>Tops are too long</option>
-                            <option>Tops are too short</option>
-                            <option>Shoulders fit, but too big through the waist</option>
-                            <option>Waist fits, but shoulder is too big</option>
-                            <option>Shoulders fit, but bust is too tight</option>
-                            <option>Shoulders fit, but bust is too loose</option>
-                            <option>Most earrings are too heavy</option>
-                          </select>
-          <p class="mt-3">
-            <small>Note: Press <kbd><kbd>⌘ + click</kbd></kbd> or <kbd><kbd><i class="fa fa-windows" aria-hidden="true"></i> + click</kbd></kbd> to select multiple options</small>
-          </p>
+          <select name="common-issues[]" multiple class="form-control my-2 w-100" size="8">
+          <option>Sleeves are too long</option>
+          <option>Sleeves are too short</option>
+          <option>Pants are too long</option>
+          <option>Pants are too short</option>
+          <option>Sleeves are too tight</option>
+          <option>Sleeves are too loose</option>
+          <option>Waist fits, but too big through the hip</option>
+          <option>Hips fits but too big through the waist (the waist gap)</option>
+          <option>Tops are too long</option>
+          <option>Tops are too short</option>
+          <option>Shoulders fit, but too big through the waist</option>
+          <option>Waist fits, but shoulder is too big</option>
+          <option>Shoulders fit, but bust is too tight</option>
+          <option>Shoulders fit, but bust is too loose</option>
+          <option>Most earrings are too heavy</option>
+          </select>
+<p class="mt-3 text-center d-none d-md-block">
+<small>Press <kbd><kbd>cmd + click</kbd></kbd> (<span class="fa fa-apple"></span>) or <kbd><kbd>ctrl + click</kbd></kbd> (<span class="fa fa-windows"></span>) to select multiple options.</small>
+</p>
         </fieldset>
 
         <!-- Fieldset: Measurements -->
@@ -140,7 +142,7 @@
         <!-- Multiple Selectbox: Favorite Body Part to Flaunt -->
         <fieldset class="mt-3">
           <legend>Which body part is your favorite to flaunt?</legend>
-          <select name="favorite-body-part-to-flaunt[]" multiple class="form-control my-2 w-100">
+          <select name="favorite-body-part-to-flaunt[]" multiple class="form-control my-2 w-100" size="6">
           <option>Arms</option>
           <option>Cleavage</option>
           <option>Shoulders</option>
@@ -148,25 +150,19 @@
           <option>Bottom</option>
           <option>Legs</option>
           </select>
-          <p class="mt-3">
-            <small>Note: Press <kbd><kbd>⌘ + click</kbd></kbd> or <kbd><kbd><i class="fa fa-windows" aria-hidden="true"></i> + click</kbd></kbd> to select multiple options</small>
-          </p>
         </fieldset>
 
         <!-- Multiple Selectbox: What you prefer to keep covered -->
         <fieldset class="mt-3">
           <legend>Anything you prefer to keep covered?</legend>
-          <select name="body-part-preferred-covered[]" multiple class="form-control my-2 w-100">
-                              <option>Arms</option>
-                              <option>Cleavage</option>
-                              <option>Shoulders</option>
-                              <option>Waist</option>
-                              <option>Bottom</option>
-                              <option>Legs</option>
-                            </select>
-          <p class="mt-3">
-            <small>Note: Press <kbd><kbd>⌘ + click</kbd></kbd> or <kbd><kbd><i class="fa fa-windows" aria-hidden="true"></i> + click</kbd></kbd> to select multiple options</small>
-          </p>
+          <select name="body-part-preferred-covered[]" multiple class="form-control my-2 w-100" size="6">
+          <option>Arms</option>
+          <option>Cleavage</option>
+          <option>Shoulders</option>
+          <option>Waist</option>
+          <option>Bottom</option>
+          <option>Legs</option>
+          </select>
         </fieldset>
 
         <!-- Fieldset: Sizes -->
@@ -178,6 +174,7 @@
             <div class="col-3">
               <label>Tops</label>
               <select name="tops-size" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
               <option>00</option>
               <option>0</option>
               <option>2</option>
@@ -199,6 +196,7 @@
             <div class="col-3">
             <label>Jacket/Blazer</label>
             <select name="jacket-or-blazer-size" class="custom-select">
+            <option selected="selected" disabled="disabled"> </option>
             <option>00</option>
             <option>0</option>
             <option>2</option>
@@ -231,6 +229,7 @@
             <div class="col-3">
               <label>Pant</label>
               <select name="pant-size" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
               <option>00</option>
               <option>0</option>
               <option>2</option>
@@ -253,6 +252,7 @@
             <div class="col-3">
               <label>Skirt</label>
               <select name="skirt-size" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
               <option>00</option>
               <option>0</option>
               <option>2</option>
@@ -279,6 +279,7 @@
             <div class="col-3">
               <label>Dress</label>
               <select name="dress-size" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
               <option>00</option>
               <option>0</option>
               <option>2</option>
@@ -300,6 +301,7 @@
             <div class="col-3">
               <label>Jeans</label>
               <select class="custom-select" name="womens-jean-size">
+              <option selected="selected" disabled="disabled"> </option>
               <option>24</option>
               <option>25</option>
               <option>25</option>
@@ -339,6 +341,7 @@
             <div class="col-12 my-5">
               <label>Do you wear specialty sizes?</label>
               <select name="specialty-sizes" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
               <option>No</option>
               <option>Petite</option>
               <option>Long</option>
@@ -348,7 +351,7 @@
           </div>
         </fieldset>
       </div>
-      <!-- Button: Continue toYOUR LIFESTYLE -->
+      <!-- Button: Continue to YOUR LIFESTYLE -->
       <button id="button-fit-continue" class="button__unfoldid button__unfoldid-primary mt-3">Continue</button>
     </div>
 

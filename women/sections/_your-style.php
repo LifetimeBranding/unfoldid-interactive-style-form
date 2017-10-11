@@ -217,6 +217,7 @@
         <fieldset class="mt-3">
           <legend>Given a choice I would...</legend>
           <select name="style-personal-choice" class="custom-select mt-2">
+          <option selected="selected" disabled="disabled"> </option>
           <option>Throw on jeans, a T and maybe add a fun accessory</option>
           <option>Get comfy in pants, a collared shirt or jacket and flats</option>
           <option>Step out in fun floral print dress</option>
@@ -230,6 +231,7 @@
         <fieldset class="mt-3">
           <legend>For evening wear I would choose...</legend>
           <select name="evening-wear" class="custom-select">
+          <option selected="selected" disabled="disabled"> </option>
           <option>Something comfortable and easy</option>
           <option>A simple but perfectly fitted LBD</option>
           <option>Something soft and flowing with pretty details or ruffles that highlights my feminine side. </option>
@@ -243,6 +245,7 @@
         <fieldset class="mt-3">
           <legend>When I go out with my girlfriends I usually wear...</legend>
           <select name="out-with-girlfriends-wear" class="custom-select mt-2">
+          <option selected="selected" disabled="disabled"> </option>
           <option>Cute jeans and top, minimal jewelry with flats</option>
           <option>My favorite pants or dressy jeans, a matching tops and simple heels</option>
           <option>Something fun and flirty that shows off the girls, maybe a lace top or even skirt and heels.</option>
@@ -270,9 +273,10 @@
               <span class="input-group-addon">Other</span>
               <input type="textbox" class="form-control w-100" name="other-personal-style-description">
           </div>
-          <p class="mt-3">
-            <small>Note: Press <kbd><kbd>cmd + click</kbd></kbd>(mac) or <kbd><kbd>ctrl + click</kbd></kbd>(windows) toselect multiple options</small>
-          </p>
+<p class="mt-3 text-center d-none d-md-block">
+<small>Press <kbd><kbd>cmd + click</kbd></kbd> (<span class="fa fa-apple"></span>) or <kbd><kbd>ctrl + click</kbd></kbd> (<span class="fa fa-windows"></span>) to select multiple options.</small>
+</p>
+
         </fieldset>
 
         <!-- Radio: Ears Pierced -->
@@ -297,14 +301,14 @@
             <div>
               <img src="images/women/outfit-sets/A.jpg" class="mx-auto" alt="A">
               <select name="outfit-set-a" class="custom-select">
-              <option selected disabled></option>
+              <option selected="selected" disabled="disabled"> </option>
               <option>I love it! My Favorite</option>
               <option>I often like this style, but not always.  I like many of these pieces but not all.</option>
               <option>Sometimes I enjoy this style.  I like some of the pieces but not all. </option>
               <option>Not really me, I don't like this style</option>
               </select>
               <label>
-              What peices do you love from this set?
+              What pieces do you love from this set?
             <input type="text" name="loved-pieces-from-set-A" class="form-control" placeholder="Leave blank if none" style="width: 100%"> 
             </label>
 
@@ -312,14 +316,14 @@
             <div>
               <img src="images/women/outfit-sets/B.jpg" class="mx-auto" alt="B">
               <select name="outfit-set-b" class="custom-select">
-              <option selected disabled></option>
+              <option selected="selected" disabled="disabled"> </option>
               <option>I love it! My Favorite</option>
               <option>I often like this style, but not always.  I like many of these pieces but not all.</option>
               <option>Sometimes I enjoy this style.  I like some of the pieces but not all. </option>
               <option>Not really me, I don't like this style</option>
               </select>
               <label>
-              What peices do you love from this set?
+              What pieces do you love from this set?
               <input type="text" name="loved-pieces-from-set-B" class="form-control" placeholder="Leave blank if none" style="width: 100%"> 
               </label>
 
@@ -327,14 +331,14 @@
             <div>
               <img src="images/women/outfit-sets/C.jpg" class="mx-auto" alt="C">
               <select name="outfit-set-c" class="custom-select">
-              <option selected disabled></option>
+              <option selected="selected" disabled="disabled"> </option>
               <option>I love it! My Favorite</option>
               <option>I often like this style, but not always.  I like many of these pieces but not all.</option>
               <option>Sometimes I enjoy this style.  I like some of the pieces but not all. </option>
               <option>Not really me, I don't like this style</option>
               </select>
               <label>
-                What peices do you love from this set?
+                What pieces do you love from this set?
               <input type="text" name="loved-pieces-from-set-C" class="form-control" placeholder="Leave blank if none" style="width: 100%"> 
               </label>
 
@@ -342,14 +346,14 @@
             <div>
               <img src="images/women/outfit-sets/D.jpg" class="mx-auto" alt="D">
               <select name="outfit-set-d" class="custom-select">
-              <option selected disabled></option>
+              <option selected="selected" disabled="disabled"> </option>
               <option>I love it! My Favorite</option>
               <option>I often like this style, but not always.  I like many of these pieces but not all.</option>
               <option>Sometimes I enjoy this style.  I like some of the pieces but not all. </option>
               <option>Not really me, I don't like this style</option>
               </select>
               <label>
-              What peices do you love from this set?
+              What pieces do you love from this set?
             <input type="text" name="loved-pieces-from-set-D" class="form-control" placeholder="Leave blank if none" style="width: 100%"> 
             </label>
 
@@ -357,14 +361,14 @@
             <div>
               <img src="images/women/outfit-sets/E.jpg" class="mx-auto" alt="E">
               <select name="outfit-set-e" class="custom-select">
-              <option selected disabled></option>
+              <option selected="selected" disabled="disabled"> </option>
               <option>I love it! My Favorite</option>
               <option>I often like this style, but not always.  I like many of these pieces but not all.</option>
               <option>Sometimes I enjoy this style.  I like some of the pieces but not all. </option>
               <option>Not really me, I don't like this style</option>
               </select>
               <label>
-                What peices do you love from this set?
+                What pieces do you love from this set?
               <input type="text" name="loved-pieces-from-set-E" class="form-control" placeholder="Leave blank if none" style="width: 100%"> 
               </label>
 
@@ -372,14 +376,14 @@
             <div>
               <img src="images/women/outfit-sets/F.jpg" class="mx-auto" alt="F">
               <select name="outfit-set-f" class="custom-select">
-              <option selected disabled></option>
+              <option selected="selected" disabled="disabled"> </option>
               <option>I love it! My Favorite</option>
               <option>I often like this style, but not always.  I like many of these pieces but not all.</option>
               <option>Sometimes I enjoy this style.  I like some of the pieces but not all. </option>
               <option>Not really me, I don't like this style</option>
               </select>
               <label>
-                What peices do you love from this set?
+                What pieces do you love from this set?
               <input type="text" name="loved-pieces-from-set-F" class="form-control" placeholder="Leave blank if none" style="width: 100%"> 
               </label>
 

@@ -62,6 +62,7 @@
                       <label>Would you like us to make your shopping list, you to make your own, or a combination of both?</label>
                       
                       <select id="shopping-list-select" name="shopping-list-preference" class="custom-select" onchange="f.shoppingList();">
+                      <option selected="selected" disabled="disabled"> </option>
                       <option value="make-one-for-me">I want you to make one for me</option>
                       <option value="ill-provide-one">I'll make my own</option>
                       <option value="little-of-both">A little of both</option>
