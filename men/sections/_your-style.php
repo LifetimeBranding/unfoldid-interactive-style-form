@@ -149,14 +149,14 @@
               <img src="images/men/stepped-up/C.png" alt="C - Progressive" width="168" height="300">
             </div>
             <div class="mx-1">
-              <span>Romatic</span>
-              <img src="images/men/stepped-up/D.png" alt="D - Romantic" width="168" height="300">
-              <input type="radio" name="best-match-stepped-up-photo" value="D - Romatic" class="my-2">
+              <span>Combination</span>
+              <img src="images/men/stepped-up/D.png" alt="D - Combination" width="168" height="300">
+              <input type="radio" name="best-match-stepped-up-photo" value="D - Combination" class="my-2">
             </div>
             <div class="mx-1">
-              <span>Euro - Modern &amp; Slim</span>
-              <img src="images/men/stepped-up/E.png" alt="E - Modern slim cut style" width="168" height="300">
-              <input type="radio" name="best-match-stepped-up-photo" value="E - Modern and Slim" class="my-2">
+              <span>Modern</span>
+              <img src="images/men/stepped-up/E.png" alt="E - Modern" width="168" height="300">
+              <input type="radio" name="best-match-stepped-up-photo" value="E - Modern" class="my-2">
             </div>
           </div>
         </fieldset>

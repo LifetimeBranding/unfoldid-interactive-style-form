@@ -100,32 +100,26 @@
           <legend>My favorite shoes are most like...</legend>
           <div id="carousel-favorite-shoes-photo" class="mt-2 ">
             <div class="text-center mx-1 ">
-              <span>Natural</span>
               <img src="images/women/favorite-shoes/A.png " class="mx-auto" alt="A - Natural" width="300" height="300">
               <input type="radio" value="A" name="favorite-shoes-photo" class="my-2 ">
             </div>
             <div class="text-center mx-1 ">
-              <span>Classic</span>
               <img src="images/women/favorite-shoes/B.png " class="mx-auto" alt="B - Classic" width="300" height="300">
               <input type="radio" value="B" name="favorite-shoes-photo" class="my-2 ">
             </div>
             <div class="text-center mx-1 ">
-              <span>Romatic</span>
               <img src="images/women/favorite-shoes/C.png" class="mx-auto" alt="C - Romatic" width="300" height="300">
               <input type="radio" value="C" name="favorite-shoes-photo" class="my-2">
             </div>
             <div class="text-center mx-1 ">
-              <span>Dramatic</span>
               <img src="images/women/favorite-shoes/D.png" class="mx-auto" alt="D - Dramatic" width="300" height="300">
               <input type="radio" value="D" name="favorite-shoes-photo" class="my-2 ">
             </div>
             <div class="text-center mx-1 ">
-              <span>Creative</span>
               <img src="images/women/favorite-shoes/E.png" class="mx-auto" alt="E - Creative" width="300" height="300">
               <input type="radio" value="E" name="favorite-shoes-photo" class="my-2">
             </div>
             <div class="text-center mx-1 ">
-              <span>Euro</span>
               <img src="images/women/favorite-shoes/F.png " class="mx-auto" alt="F - Euro" width="300" height="300">
               <input type="radio" value="F" name="favorite-shoes-photo" class="my-2 ">
             </div>
@@ -137,35 +131,29 @@
           <legend>My favorite topper is most like...</legend>
           <div id="carousel-favorite-topper-photo" class="mt-2 ">
             <div class="text-center mx-1 ">
-              <span>Neutral Cardigan</span>
               <img src="images/women/favorite-topper/A.png " class="mx-auto" alt="A - Neutral Cardigan" height="300">
               <input type="radio" value="A" name="favorite-topper-photo" class="my-2 ">
 
             </div>
             <div class="text-center mx-1 ">
-              <span>Chanel Style Jacket</span>
               <img src="images/women/favorite-topper/B.png " class="mx-auto" alt="B - Chanel Style Jacket" height="300">
               <input type="radio" value="B" name="favorite-topper-photo" class="my-2 ">
 
             </div>
             <div class="text-center mx-1 ">
-              <span>Coral Ruffle Front</span>
               <img src="images/women/favorite-topper/C.png " class="mx-auto" alt="C - Coral Ruffle Front" height="300">
               <input type="radio" value="C" name="favorite-topper-photo" class="my-2">
 
             </div>
             <div class="text-center mx-1">
-              <span>Bold Dramatic</span>
               <img src="images/women/favorite-topper/D.png" class="mx-auto" alt="D - Bold Dramatic" height="300">
               <input type="radio" value="D" name="favorite-topper-photo" class="my-2">
             </div>
             <div class="text-center mx-1">
-              <span>Creative</span>
               <img src="images/women/favorite-topper/E.png" class="mx-auto" alt="E - Creative" height="300">
               <input type="radio" value="E" name="favorite-topper-photo" class="my-2">
             </div>
             <div class="text-center mx-1">
-              <span>Sleek &amp; Simple</span>
               <img src="images/women/favorite-topper/F.png" class="mx-auto" alt="F - Sleek and Simple" height="300">
               <input type="radio" value="F" name="favorite-topper-photo" class="my-2">
             </div>

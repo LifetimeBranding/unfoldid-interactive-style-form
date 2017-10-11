@@ -183,7 +183,7 @@ f = {
       success: function (result) {
         // add user name
         var header = result.result == 'success' ? "Success!" : "Error";
-        var text = result.result == 'success' ? "We've received your form and will get back to you shortly." : "An error occured and we didn't receive your information. Please try again."
+        var text = result.result == 'success' ? "Thanks for filling out your Style Profile. Your response has been recorded and our team of Stylists is ready to hit the stores to find the perfect pieces for you!" : "An error occured and we didn't receive your information. Please try again."
         $("#main-form-container").addClass("d-none");
         $("#completed-form-response-header").html(header);
         $("#completed-form-response-text").html(text);
