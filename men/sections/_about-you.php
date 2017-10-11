@@ -12,8 +12,10 @@
         <div class="splash-text">
           <h3>About You</h3><br>
           <p>Tell us a little bit about yourself. The more information we have about you, your style and your shopping needs
-            the better our shopping trip will be.</p>
-          <button id="button-about-you-start" class="button__unfoldid button__unfoldid-primary" onclick="u.preventBack();">Start</button>
+            the better our shopping trip will be.
+          </p>
+          <button id="button-about-you-start" class="button__unfoldid button__unfoldid-primary" onclick="u.preventBack();">   Start
+          </button>
         </div>
       </div>
     </div>

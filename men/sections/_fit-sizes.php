@@ -117,70 +117,74 @@
             <!-- T-Shirts -->
             <div class="col-auto">
               <select name="t-shirt-size" class="custom-select">
-                              <option value="XS">XS</option>
-                              <option value="S">S</option>
-                              <option value="M">M</option>
-                              <option value="L">L</option>
-                              <option value="XL">XL</option>
-                              <option value="XXL">XXL</option>
-                              <option value="XXXL">XXXL</option>
-                              </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option value="XS">XS</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+              <option value="XXXL">XXXL</option>
+              </select>
               <label>T-Shirts</label>
             </div>
             <!-- Neck -->
             <div class="col-auto">
               <select name="neck-size" class="custom-select">
-                                  <option value="15">15</option>
-                                  <option value="15.5">15.5</option>
-                                  <option value="16">16</option>
-                                  <option value="16.5">16.5</option>
-                                  <option value="17">17</option>
-                                  <option value="17.5">17.5</option>
-                                  <option value="18">18</option>
-                                  <option value="18.5">18.5</option>
-                                  <option value="19">19</option>
-                                  <option value="19.5">19.5</option>
-                                  <option value="20">20</option>
-                                </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option value="15">15</option>
+              <option value="15.5">15.5</option>
+              <option value="16">16</option>
+              <option value="16.5">16.5</option>
+              <option value="17">17</option>
+              <option value="17.5">17.5</option>
+              <option value="18">18</option>
+              <option value="18.5">18.5</option>
+              <option value="19">19</option>
+              <option value="19.5">19.5</option>
+              <option value="20">20</option>
+              </select>
               <label>Neck</label>
             </div>
             <!-- Sleeve -->
             <div class="col-auto">
               <select name="sleeve-size" class="custom-select">
-                                  <option value="32">32</option>
-                                  <option value="33">33</option>
-                                  <option value="34">34</option>
-                                  <option value="35">35</option>
-                                  <option value="36">36</option>
-                                  <option value="37">37</option>
-                                  <option value="38">38</option>
-                                </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option value="32">32</option>
+              <option value="33">33</option>
+              <option value="34">34</option>
+              <option value="35">35</option>
+              <option value="36">36</option>
+              <option value="37">37</option>
+              <option value="38">38</option>
+              </select>
               <label>Sleeve</label>
             </div>
             <!-- Jacket -->
             <div class="col-auto">
               <select name="jacket-size" class="custom-select">
-                              <option value="36S">36S</option>
-                              <option value="36R">38R</option>
-                              <option value="38S">38S</option>
-                              <option value="38R">38R</option>
-                              <option value="40S">40S</option>
-                              <option value="40R">40R</option>
-                              <option value="40L">40L</option>
-                              <option value="42S">42S</option>
-                              <option value="42R">42R</option>
-                              <option value="42L">42L</option>
-                              <option value="44S">44S</option>
-                              <option value="44R">44R</option>
-                              <option value="44L">44L</option>
-                              <option value="46R">46R</option>
-                              <option value="46L">46L</option>
-                              <option value="48R">48R</option>
-                              <option value="48L">48L</option>
-                              <option value="50R">50R</option>
-                              <option value="50L">50L</option>
-                              <option value="Other">Other</option>
-                              </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option value="36S">36S</option>
+              <option value="36R">38R</option>
+              <option value="38S">38S</option>
+              <option value="38R">38R</option>
+              <option value="40S">40S</option>
+              <option value="40R">40R</option>
+              <option value="40L">40L</option>
+              <option value="42S">42S</option>
+              <option value="42R">42R</option>
+              <option value="42L">42L</option>
+              <option value="44S">44S</option>
+              <option value="44R">44R</option>
+              <option value="44L">44L</option>
+              <option value="46R">46R</option>
+              <option value="46L">46L</option>
+              <option value="48R">48R</option>
+              <option value="48L">48L</option>
+              <option value="50R">50R</option>
+              <option value="50L">50L</option>
+              <option value="Other">Other</option>
+              </select>
               <label>Jacket</label>
             </div>
           </div>
@@ -191,38 +195,38 @@
             </div>
             <!-- Waist -->
             <div class="col-auto text-center">
-
               <select name="waist-size" class="custom-select">
-                              <option value="29">29</option>
-                              <option value="30">30</option>
-                              <option value="31">31</option>
-                              <option value="32">32</option>
-                              <option value="33">33</option>
-                              <option value="34">34</option>
-                              <option value="36">36</option>
-                              <option value="38">38</option>
-                              <option value="40">40</option>
-                              <option value="42">42</option>
-                              <option value="44">44</option>
-                              <option value="46">46</option>
-                              </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+              <option value="32">32</option>
+              <option value="33">33</option>
+              <option value="34">34</option>
+              <option value="36">36</option>
+              <option value="38">38</option>
+              <option value="40">40</option>
+              <option value="42">42</option>
+              <option value="44">44</option>
+              <option value="46">46</option>
+              </select>
               <label>W</label>
             </div>
+
             <div class="col-auto col-form-label"><span class="d-inline-block align-bottom">x</span></div>
             <!-- Inseam -->
             <div class="col-auto text-center">
-
               <select name="inseam-size" class="custom-select">
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                                <option value="31">31</option>
-                                <option value="32">32</option>
-                                <option value="33">33</option>
-                                <option value="34">34</option>
-                                <option value="35">35</option>
-                                <option value="36">36</option>
-                                
-                              </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+              <option value="32">32</option>
+              <option value="33">33</option>
+              <option value="34">34</option>
+              <option value="35">35</option>
+              <option value="36">36</option>             
+              </select>
               <label>L</label>
             </div>
 
@@ -234,24 +238,25 @@
             <div class="col-auto text-center">
 
               <select name="shoe-size" class="custom-select">
-                              <option value="6">6</option>
-                              <option value="6.5">6.5</option>
-                              <option value="7">7</option>
-                              <option value="7.5">7.5</option>
-                              <option value="8">8</option>
-                              <option value="8.5">8.5</option>
-                              <option value="9">9</option>
-                              <option value="9.5">9.5</option>
-                              <option value="10">10</option>
-                              <option value="10.5">10.5</option>
-                              <option value="11">11</option>
-                              <option value="11.5">11.5</option>
-                              <option value="12">12</option>
-                              <option value="12.5">12.5</option>
-                              <option value="13">13</option>
-                              <option value="13.5">13.5</option>
-                              <option value="14">14</option>
-                              </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option value="6">6</option>
+              <option value="6.5">6.5</option>
+              <option value="7">7</option>
+              <option value="7.5">7.5</option>
+              <option value="8">8</option>
+              <option value="8.5">8.5</option>
+              <option value="9">9</option>
+              <option value="9.5">9.5</option>
+              <option value="10">10</option>
+              <option value="10.5">10.5</option>
+              <option value="11">11</option>
+              <option value="11.5">11.5</option>
+              <option value="12">12</option>
+              <option value="12.5">12.5</option>
+              <option value="13">13</option>
+              <option value="13.5">13.5</option>
+              <option value="14">14</option>
+              </select>
               <label>Size</label>
             </div>
 

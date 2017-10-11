@@ -165,6 +165,7 @@
         <fieldset class="mt-3">
         <legend>Given a choice I would...</legend>
         <select name="style-personal-choice" class="custom-select mt-2 w-100">
+        <option selected="selected" disabled="disabled"> </option>
         <option>Throw on jeans, a T</option>
         <option> Grab Khaki's and a polo shirt </option>
         <option> Put on something with bold color in luxurious fabric like cashmere </option>
@@ -190,9 +191,11 @@
             <span class="input-group-addon">Other</span>
             <input type="textbox" class="form-control w-100" name="other-personal-style-description">
         </div>
-          <p class="mt-3 text-center">
-            <small>Note: Press <kbd><kbd>cmd + click</kbd></kbd> (mac) or <kbd><kbd>ctrl + click</kbd></kbd> (windows) to select multiple options</small>
+
+          <p class="mt-3 text-center d-none d-md-block">
+            <small>Press <kbd><kbd>cmd + click</kbd></kbd> (<span class="fa fa-apple"></span>) or <kbd><kbd>ctrl + click</kbd></kbd> (<span class="fa fa-windows"></span>) to select multiple options.</small>
           </p>
+
         </fieldset>
       </div>
       <!--  Button: Your Style to Fit & Sizes -->

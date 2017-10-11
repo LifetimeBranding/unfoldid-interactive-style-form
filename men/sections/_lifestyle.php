@@ -73,7 +73,6 @@
         <fieldset class="mt-3">
           <legend>How do you dress when you go out?</legend>
 
-
           <div id="carousel-going-out-photo">
             <div class="text-center mx-1">
               <span class="my-2">Shirt &amp; Jeans</span>
@@ -101,15 +100,15 @@
             <div class="col-12 mx-auto text-center">
               <label for="average-cost-per-item">What is the average cost per item you'd like us to spend?</label>
               <select name="average-cost-per-item" class="custom-select mt-1">
-                              <option>---</option>
-                              <option value="50">$50</option>
-                              <option value="75">$70</option>
-                              <option value="100">$100</option>
-                              <option value="150">$150</option>
-                              <option value="200">$200</option>
-                              <option value="500">$500</option>
-                              <option value="750">$750+</option>
-                              </select>
+              <option selected="selected" disabled="disabled"> </option>
+              <option value="50">$50</option>
+              <option value="75">$70</option>
+              <option value="100">$100</option>
+              <option value="150">$150</option>
+              <option value="200">$200</option>
+              <option value="500">$500</option>
+              <option value="750">$750+</option>
+              </select>
             </div>
           </div>
           <div class="form-row mt-5">
@@ -119,7 +118,6 @@
             </div>
           </div>
         </fieldset>
-
       </div>
 
     </div>
