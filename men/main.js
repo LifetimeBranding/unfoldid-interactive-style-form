@@ -112,7 +112,14 @@ unfoldid = {
         let nextSection = `#v-pills-${next}-tab`
 
         $(currentButton).click(function () {
-          $(nextSection).tab('show')
+          // TODO: Add Validation Check Here
+          
+          if (validator.sectionValidated(current))
+          {
+            $(nextSection).tab('show')
+          } else {
+            alert('Please fill out all required sections')
+          }
         })
       }
 

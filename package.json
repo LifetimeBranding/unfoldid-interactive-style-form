@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && mocha scripts/tests/test.js"
+  }
+}

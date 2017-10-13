@@ -16,6 +16,10 @@
     crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/856026a2db.js"></script>
   <script src="vendor/slick.min.js"></script>
+  <script src="scripts/build/FormValidator.js"></script>
+  <script>
+    let validator = new FormValidator()
+  </script>
   <script src="<?php echo ($gender == 'male') ? 'men': 'women' ?>/main.js"></script>
 </body>
 
