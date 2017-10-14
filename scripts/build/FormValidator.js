@@ -11,7 +11,7 @@ var FormValidator = /** @class */ (function () {
         var failedToAnswerAllQuestions = false;
         var requiredQuestions = this.getRequiredQuestionsForSection(section);
         for (var question in requiredQuestions) {
-            var field = document.forms['mens'][requiredQuestions[question]];
+            var field = document.forms[0][requiredQuestions[question]];
             var answer = field.value;
             if (!answer)
                 failedToAnswerAllQuestions = true;
@@ -21,9 +21,9 @@ var FormValidator = /** @class */ (function () {
         return true;
     };
     FormValidator.prototype.getRequiredQuestionsForSection = function (section) {
-        // only two quesitons for now
+        // only four quesitons for now
         // add switch statement later
-        return ['first-name', 'last-name'];
+        return ['first-name', 'last-name', 'email-address', 'phone-number'];
     };
     return FormValidator;
 }());

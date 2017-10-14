@@ -118,7 +118,7 @@ unfoldid = {
           {
             $(nextSection).tab('show')
           } else {
-            alert('Please fill out all required sections')
+            alert('Please fill out your contact information')
           }
         })
       }
@@ -181,6 +181,9 @@ unfoldid = {
 
 f = {
   submitForm: function () {
+    if (!validator.sectionValidated('about-you'))
+      return alert('Please fill out your contact information')
+
     $('#button-wrap-up-continue').text('Submitting...');
     var mensSpreadsheet = 'https://script.google.com/a/unfoldid.com/macros/s/AKfycbyw5h4kGA32UyF2ES9xhP-yKoboocQxJVGyU3f0HuP4FJ640ylX/exec';
     $.ajax({

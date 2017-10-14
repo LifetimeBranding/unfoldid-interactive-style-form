@@ -16,7 +16,7 @@
     let requiredQuestions = this.getRequiredQuestionsForSection(section)
 
     for (let question in requiredQuestions) {
-      let field = document.forms['mens'][requiredQuestions[question]]
+      let field = document.forms[0][requiredQuestions[question]]
       let answer = field.value
 
       if (!answer) failedToAnswerAllQuestions = true
@@ -29,8 +29,8 @@
    }
 
     private getRequiredQuestionsForSection(section: string) {
-      // only two quesitons for now
+      // only four quesitons for now
       // add switch statement later
-      return ['first-name','last-name']
+      return ['first-name','last-name','email-address','phone-number']
     }
 }

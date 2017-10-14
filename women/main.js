@@ -111,7 +111,14 @@ unfoldid = {
         let nextSection = `#v-pills-${next}-tab`
 
         $(currentButton).click(function () {
-          $(nextSection).tab('show')
+          // TODO: Add Validation Check Here
+          
+          if (validator.sectionValidated(current))
+          {
+            $(nextSection).tab('show')
+          } else {
+            alert('Please fill out your contact information')
+          }
         })
       }
 
@@ -175,6 +182,9 @@ unfoldid = {
 
 f = {
   submitForm: function() {
+    if (!validator.sectionValidated('about-you'))
+      return alert('Please fill out your contact information')
+
     $('#button-wrap-up-continue').text('Submitting...');
     var womensSpreadsheet = 'https://script.google.com/a/unfoldid.com/macros/s/AKfycbweh8RzgUq65QEUnuTi6KZMYIcNvvR0tp93jZ4VJuB0w4HN_YJq/exec';
     $.ajax({
