@@ -28,14 +28,16 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST' || !$gender) :
             <div class="row">
             <div class="col-12">
             <div class="text-center">
-            <label>Please select your gender: </label>
+            <label>Would you like the version that is for Him or for Her?</label>
             <form name="gender-selection" method="POST">
                 <div>
-                    <input type="radio" name="gender" class="mx-2" value="male"> Male
-                    <input type="radio" name="gender" class="mx-2 " value="female"> Female
+                    <input type="radio" name="gender" class="mx-2" value="male"> Him
+                    <input type="radio" name="gender" class="mx-2 " value="female"> Her
                 </div>
                 <div>
-                <button class="button__unfoldid button__unfoldid-primary m-3" onclick="validateForm();">Begin</button>
+                <button class="button__unfoldid button__unfoldid-primary m-3" onclick="validateForm();">
+                    Begin
+                </button>
                 </div>
             </form> 
             </div>

@@ -90,9 +90,11 @@
       <textarea name="wrap-up-notes" class="form-control w-100" placeholder="Enter any other information you think is important here" rows="5"></textarea>
     </fieldset>
   </div>
-  <span class="d-block mt-2">Note: Please <a href="#" style="color: #B0851E;" onclick="$('#v-pills-about-you-tab').trigger('click');">review</a> your responses before submitting.
+    <span class="d-block mt-2">If you would like to review your responses before submitting use the menu.
+    <!--<span class="d-block mt-2">Note: Please <a href="#" style="color: #B0851E;" onclick="$('#v-pills-about-you-tab').trigger('click');">review</a> your responses before submitting.-->
   <br>
   <small>(Do not click your browser's back button)</small>
+  <br>
   </span>
   <button id="button-wrap-up-continue" class="button__unfoldid button__unfoldid-primary mt-3" onclick="f.submitForm();">Submit Form</button>
 </div>

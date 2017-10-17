@@ -1,12 +1,12 @@
 <div class="tab-pane fade show active" id="v-pills-introduction" role="tabpanel" aria-labelledby="v-pills-introduction-tab">
   <div class="row">
     <!-- Aricia Pose [px-0 added to remove padding for wider than normal image] -->
-    <div class="pose-section col-3 px-0" id="pose-intro">
+    <div class="pose-section col-4 px-0" id="pose-intro">
       <img src="images/aricia-poses/intro.jpg" alt="Introduction Pose">
     </div>
 
     <!-- Copy -->
-    <div class="col-9">
+    <div class="col-8">
       <div class="splash-text">
         <h3>introduction</h3>
         <br>
