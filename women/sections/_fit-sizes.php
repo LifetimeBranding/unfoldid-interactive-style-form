@@ -165,11 +165,11 @@
           </select>
         </fieldset>
 
-        <!-- Fieldset: Sizes -->
+        <!-- Fieldset: Regular Sizes -->
         <fieldset class="mt-3 mb-3">
           <legend>Sizes</legend>
 
-          <!-- Row: Specialty? -->
+          <!-- Row -->
           <div class="form-row my-2">
             <div class="col-3">
               <label>Tops</label>
@@ -337,6 +337,119 @@
               <input type="text" name="shoe-size" class="form-control" size="4">
             </div>
           </div>
+
+        </fieldset>
+
+        <!-- Divider: Alternate Sizes -->
+        <div class="mx-auto mt-1 mb-3">
+          <span class="badge badge-warning">Alternate</span>
+
+          <!-- Row -->
+          <div class="form-row my-2">
+            <div class="col-2 mx-auto">
+              <label>Tops</label>
+              <select name="tops-size-alt" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
+              <option>PXS</option>
+              <option>PS</option>
+              <option>PM</option>
+              <option>PL</option>
+              <option>PXL</option>
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>1X</option>
+              <option>2X</option>
+              <option>3X</option>
+              <option>4X</option>
+              </select>
+            </div>
+            <div class="col-2 mx-auto">
+              <label>Jacket/Blazer</label>
+              <select name="jacket-or-blazer-size-alt" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
+              <option>PXS</option>
+              <option>PS</option>
+              <option>PM</option>
+              <option>PL</option>
+              <option>PXL</option>
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>1X</option>
+              <option>2X</option>
+              <option>3X</option>
+              <option>4X</option>
+              </select>
+            </div>
+
+            <div class="col-2 mx-auto">
+              <label>Pant</label>
+              <select name="pant-size-alt" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
+              <option>PXS</option>
+              <option>PS</option>
+              <option>PM</option>
+              <option>PL</option>
+              <option>PXL</option>
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>1X</option>
+              <option>2X</option>
+              <option>3X</option>
+              <option>4X</option>
+              </select>
+            </div>
+    
+            <div class="col-2 mx-auto">
+              <label>Skirt</label>
+              <select name="skirt-size-alt" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
+              <option>PXS</option>
+              <option>PS</option>
+              <option>PM</option>
+              <option>PL</option>
+              <option>PXL</option>
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>1X</option>
+              <option>2X</option>
+              <option>3X</option>
+              <option>4X</option>
+              </select>
+            </div>
+
+            <div class="col-2 mx-auto">
+              <label>Dress</label>
+              <select name="dress-size-alt" class="custom-select">
+              <option selected="selected" disabled="disabled"> </option>
+              <option>PXS</option>
+              <option>PS</option>
+              <option>PM</option>
+              <option>PL</option>
+              <option>PXL</option>
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>1X</option>
+              <option>2X</option>
+              <option>3X</option>
+              <option>4X</option>
+              </select>
+            </div>
+          </div>
           <div class="form-row">
             <div class="col-12 my-5">
               <label>Do you wear specialty sizes?</label>
@@ -349,7 +462,7 @@
               </select>
             </div>
           </div>
-        </fieldset>
+        </div>
       </div>
       <!-- Button: Continue to YOUR LIFESTYLE -->
       <button id="button-fit-continue" class="button__unfoldid button__unfoldid-primary mt-3">Continue</button>

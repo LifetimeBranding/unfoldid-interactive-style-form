@@ -38,7 +38,7 @@
             </div>
             <div class="col-auto mx-auto mt-2">
               <label for="occupation-2">
-                                <span>and your secondary occupation?</span> </label>
+                <span>and your secondary occupation?</span> </label>
               <input type="text" name="occupation-2" class="form-control" placeholder="Leave blank if none">
             </div>
           </div>
@@ -236,23 +236,17 @@
           <input type="text" name="prints-to-avoid" class="form-control w-100" placeholder="Leave blank if none">
         </fieldset>
 
-        <!-- Fieldset: Fabrics - Like -->
+        <!-- Fieldset: Fabrics - Avoid -->
         <fieldset class="mt-3">
-          <legend>Are there any fabrics or materials you prefer?</legend>
-          <select name="preferred-fabrics[]" multiple class="form-control w-100" size="6">
+          <legend>Are there any fabrics or materials that we should specifically avoid?</legend>
+          <select name="fabrics-to-avoid[]" multiple class="form-control w-100" size="6">
           <option>Leather</option>
-          <option>Pleater</option>
+          <option>Pleather</option>
           <option>Fur</option>
           <option>Faux Fur</option>
           <option>Wool</option>
           <option>Polyester</option>
           </select>
-        </fieldset>
-
-        <!-- Fieldset: Fabrics - Don't Like -->
-        <fieldset class="mt-3">
-          <legend>Are there any fabrics or materials listed above that we should specifically avoid?</legend>
-          <input name="fabrics-to-avoid" type="text" class="form-control w-100" placeholder="Leave blank if none">
         </fieldset>
 
         <!-- Fieldset: Consignment -->
