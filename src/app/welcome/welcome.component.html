@@ -1,0 +1,10 @@
+
+<div style="margin: auto; width: 500px; text-align: center">
+  <img src="assets/unfoldid-logo.svg" alt="Logo" width="177" height="100">
+  <p> {{ labels.header }} </p>
+  <form>
+      <input name="gender" type="radio" [value]="male"> {{ labels.male }}
+      <input name="gender" type="radio" [value]="female"> {{ labels.female }}
+  </form>
+  <button class="btn btn__primary" (click)="onBeginButtonClicked()"> {{ labels.button }} </button>
+</div>
